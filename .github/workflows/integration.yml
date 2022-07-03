@@ -43,4 +43,4 @@ jobs:
         run: yarn build
 
       - name: Restart server application
-        run: pm2 restart test-action
+        run: pm2 restart gh-action
